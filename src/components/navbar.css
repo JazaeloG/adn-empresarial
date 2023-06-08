@@ -1,7 +1,7 @@
 nav{
     height: 5rem;
     width: 100vw;
-    background: var(--color-primary);
+    background: var(--color-gray-600);
     display: grid;
     place-items: center;
     position: fixed;
@@ -50,7 +50,7 @@ nav{
     display: block;
     width: 1.2rem;
     height: 1.2rem;
-    background: var(--color-primary);
+    background: var(--color-gray-600);
     position: absolute;
     left: calc(50% - 0.6rem);
     transform: rotate(45deg);
@@ -86,7 +86,7 @@ nav{
         box-sizing: -2rem, 2rem 5rem rgba(0,0,0,0.4);
     }
     .nav_links li a {
-        background-color: var(--color-primary);
+        background-color: var(--color-gray-600);
         height: 100%;
         width: 100%;
         display: flex;
@@ -98,6 +98,7 @@ nav{
         display: flex;
 
     }
+
     .hide_nav{
         display: none;
     }
